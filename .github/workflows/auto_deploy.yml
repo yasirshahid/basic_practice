@@ -34,5 +34,4 @@ jobs:
     - name: deploying uses surge 
       run: surge /home/yasir/Desktop/data/basic_practice/ http://newpractice.surge.sh --tokan ${{secrets.SURGE_TOKEN}}
       
-        echo Add other actions to build,
-        echo test, and deploy your project.
+
