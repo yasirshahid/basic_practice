@@ -32,6 +32,6 @@ jobs:
     - name: Installing surge  
       run: npm install --global surge 
     - name: deploying uses surge 
-      run:  surge /home/yasir/Desktop/data/basic_practice/ http://newpractice.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run:  surge /home/yasir/Desktop/data/basic_practice/ newpractice.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
 
