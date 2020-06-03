@@ -1,7 +1,10 @@
 var score=prompt("what is your score");
 score=parseInt(score);
 
-if (score==80 || score>80){
+if(score>=101){
+    console.log("Your are not enter a percentile range ")
+}
+else if (score==80 || score>80){
     alert("Grade A+")
     if (score==85 || score>85){
         alert("REWARD $100")
